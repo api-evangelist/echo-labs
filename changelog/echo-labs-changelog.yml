@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://el.ai/changelog
+scheme: semver
+current_version: v0.5
+notes: >-
+  Echo Labs publishes a lightweight product changelog at /changelog. As of this
+  capture the page announces v0.5 and states no further historical entries are
+  listed ("That's all for now. Check back soon for more updates!"). No dated
+  entries are published; only the current-version announcement is captured
+  verbatim. This is a company/product changelog, not an API changelog — Echo
+  Labs does not publish a public API.
+entries:
+- version: v0.5
+  date: null
+  highlights:
+  - Announcing Echo Labs v0.5 — built for system-scale accessibility
+  breaking: false

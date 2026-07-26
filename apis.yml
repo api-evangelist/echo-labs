@@ -1,7 +1,18 @@
 aid: echo-labs
 name: Echo Labs
-description: Echo Labs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Echo Labs is a San Francisco-based company building AI-powered media
+  accessibility for higher education. Its platform audits, captions, and audio
+  describes entire institutional video libraries within 24 hours, producing
+  ADA / Title II and WCAG 2.1 AA compliant closed captions and audio
+  descriptions at claimed accuracy above 99 percent and roughly $0.75 per
+  minute — a fraction of legacy vendor pricing. Echo integrates with major
+  learning management systems (7+ LMS platforms) so universities and colleges
+  can bring existing course video into compliance at institutional scale. The
+  company is SOC 2 certified, completed a pre-seed round, and is a Techstars
+  portfolio company. This API Evangelist profile tracks Echo Labs as a company
+  in the network; the provider does not publish a public API or developer
+  portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/echo-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://el.ai/apple-touch-icon.png
 tags:
 - Company
+- Accessibility
+- Captioning
+- Audio Description
+- Higher Education
+- Video
+- WCAG
+- ADA Compliance
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/echo-labs-domain-security.yml
 - type: Website
   url: https://el.ai/
+- type: ChangeLog
+  url: https://el.ai/changelog
+- type: ChangeLog
+  url: changelog/echo-labs-changelog.yml
+- type: Blog
+  url: https://el.ai/blog
+- type: About
+  url: https://el.ai/about
+- type: Research
+  url: https://el.ai/research
+- type: Accessibility
+  url: https://el.ai/accessibility
+- type: Login
+  url: https://dash.el.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/echolabsai
+- type: Twitter
+  url: https://x.com/echolabsai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
