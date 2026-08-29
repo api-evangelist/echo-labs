@@ -14,6 +14,9 @@ description: >-
   in the network; the provider does not publish a public API or developer
   portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/echo-labs/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This API Evangelist profile tracks Echo Labs as a company in the network; the provider does not publish a public API or developer portal at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
